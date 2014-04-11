@@ -1,0 +1,489 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		912EAE6918F7CDAB0055AAAE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 912EAE6818F7CDAB0055AAAE /* main.m */; };
+		912EAE6F18F7CE140055AAAE /* RMZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 912EAE6C18F7CE140055AAAE /* RMZAppDelegate.m */; };
+		912EAE7018F7CE140055AAAE /* RMZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 912EAE6E18F7CE140055AAAE /* RMZViewController.m */; };
+		912EAE7818F7CE490055AAAE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912EAE7718F7CE490055AAAE /* Images.xcassets */; };
+		9130BBBE18F7CEEC00729792 /* ReamazeSDK-Prefix.pch in Resources */ = {isa = PBXBuildFile; fileRef = 912EAE6A18F7CDB40055AAAE /* ReamazeSDK-Prefix.pch */; };
+		91640F0C1909E1CA002F4FAE /* ReamazeController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91640F031909E1CA002F4FAE /* ReamazeController.m */; };
+		91640F101909E1CA002F4FAE /* ReamazeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 91640F0A1909E1CA002F4FAE /* ReamazeViewController.m */; };
+		91640F111909E1CA002F4FAE /* ReamazeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 91640F0B1909E1CA002F4FAE /* ReamazeViewController.xib */; };
+		91640F141909E27E002F4FAE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 91640F121909E27E002F4FAE /* InfoPlist.strings */; };
+		91640F1B1909E32E002F4FAE /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91640F151909E290002F4FAE /* Main_iPad.storyboard */; };
+		91640F1C1909E337002F4FAE /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 91640F171909E290002F4FAE /* Main_iPhone.storyboard */; };
+		91640F1F1909E420002F4FAE /* ReamazeSDK-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 912EAE6318F7CD8F0055AAAE /* ReamazeSDK-Info.plist */; };
+		91B07C8E18F5220F0005F69F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B07C8D18F5220F0005F69F /* Foundation.framework */; };
+		91B07C9018F5220F0005F69F /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B07C8F18F5220F0005F69F /* CoreGraphics.framework */; };
+		91B07C9218F5220F0005F69F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B07C9118F5220F0005F69F /* UIKit.framework */; };
+		91B07CB118F5220F0005F69F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B07C8D18F5220F0005F69F /* Foundation.framework */; };
+		91B07CB218F5220F0005F69F /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 91B07C9118F5220F0005F69F /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		91B07CB318F5220F0005F69F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 91B07C8218F5220F0005F69F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 91B07C8918F5220F0005F69F;
+			remoteInfo = ReamazeSDK;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		912EAE6318F7CD8F0055AAAE /* ReamazeSDK-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "ReamazeSDK-Info.plist"; path = "Example/ReamazeSDK-Info.plist"; sourceTree = SOURCE_ROOT; };
+		912EAE6818F7CDAB0055AAAE /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Example/main.m; sourceTree = SOURCE_ROOT; };
+		912EAE6A18F7CDB40055AAAE /* ReamazeSDK-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "ReamazeSDK-Prefix.pch"; path = "Example/ReamazeSDK-Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		912EAE6B18F7CE140055AAAE /* RMZAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMZAppDelegate.h; sourceTree = "<group>"; };
+		912EAE6C18F7CE140055AAAE /* RMZAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMZAppDelegate.m; sourceTree = "<group>"; };
+		912EAE6D18F7CE140055AAAE /* RMZViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RMZViewController.h; sourceTree = "<group>"; };
+		912EAE6E18F7CE140055AAAE /* RMZViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RMZViewController.m; sourceTree = "<group>"; };
+		912EAE7718F7CE490055AAAE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		91640F011909E1CA002F4FAE /* Reamaze.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Reamaze.h; sourceTree = "<group>"; };
+		91640F021909E1CA002F4FAE /* ReamazeController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReamazeController.h; sourceTree = "<group>"; };
+		91640F031909E1CA002F4FAE /* ReamazeController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReamazeController.m; sourceTree = "<group>"; };
+		91640F091909E1CA002F4FAE /* ReamazeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReamazeViewController.h; sourceTree = "<group>"; };
+		91640F0A1909E1CA002F4FAE /* ReamazeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReamazeViewController.m; sourceTree = "<group>"; };
+		91640F0B1909E1CA002F4FAE /* ReamazeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ReamazeViewController.xib; sourceTree = "<group>"; };
+		91640F131909E27E002F4FAE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = Example/en.lproj/InfoPlist.strings; sourceTree = SOURCE_ROOT; };
+		91640F161909E290002F4FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		91640F181909E290002F4FAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		91B07C8A18F5220F0005F69F /* ReamazeSDK.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReamazeSDK.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		91B07C8D18F5220F0005F69F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		91B07C8F18F5220F0005F69F /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		91B07C9118F5220F0005F69F /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		91B07CAE18F5220F0005F69F /* ReamazeSDKTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ReamazeSDKTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		91B07C8718F5220F0005F69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B07C9018F5220F0005F69F /* CoreGraphics.framework in Frameworks */,
+				91B07C9218F5220F0005F69F /* UIKit.framework in Frameworks */,
+				91B07C8E18F5220F0005F69F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B07CAB18F5220F0005F69F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91B07CB218F5220F0005F69F /* UIKit.framework in Frameworks */,
+				91B07CB118F5220F0005F69F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		912EAE5F18F7CC3A0055AAAE /* Example */ = {
+			isa = PBXGroup;
+			children = (
+				91B07C9418F5220F0005F69F /* Supporting Files */,
+				912EAE6B18F7CE140055AAAE /* RMZAppDelegate.h */,
+				912EAE6C18F7CE140055AAAE /* RMZAppDelegate.m */,
+				912EAE6D18F7CE140055AAAE /* RMZViewController.h */,
+				912EAE6E18F7CE140055AAAE /* RMZViewController.m */,
+				91640F151909E290002F4FAE /* Main_iPad.storyboard */,
+				91640F171909E290002F4FAE /* Main_iPhone.storyboard */,
+				912EAE7718F7CE490055AAAE /* Images.xcassets */,
+			);
+			path = Example;
+			sourceTree = SOURCE_ROOT;
+		};
+		91640F001909E1CA002F4FAE /* ReamazeSDK */ = {
+			isa = PBXGroup;
+			children = (
+				91640F011909E1CA002F4FAE /* Reamaze.h */,
+				91640F021909E1CA002F4FAE /* ReamazeController.h */,
+				91640F031909E1CA002F4FAE /* ReamazeController.m */,
+				91640F091909E1CA002F4FAE /* ReamazeViewController.h */,
+				91640F0A1909E1CA002F4FAE /* ReamazeViewController.m */,
+				91640F0B1909E1CA002F4FAE /* ReamazeViewController.xib */,
+			);
+			path = ReamazeSDK;
+			sourceTree = "<group>";
+		};
+		91B07C8118F5220F0005F69F = {
+			isa = PBXGroup;
+			children = (
+				912EAE5F18F7CC3A0055AAAE /* Example */,
+				91640F001909E1CA002F4FAE /* ReamazeSDK */,
+				91B07C8C18F5220F0005F69F /* Frameworks */,
+				91B07C8B18F5220F0005F69F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		91B07C8B18F5220F0005F69F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				91B07C8A18F5220F0005F69F /* ReamazeSDK.app */,
+				91B07CAE18F5220F0005F69F /* ReamazeSDKTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		91B07C8C18F5220F0005F69F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				91B07C8D18F5220F0005F69F /* Foundation.framework */,
+				91B07C8F18F5220F0005F69F /* CoreGraphics.framework */,
+				91B07C9118F5220F0005F69F /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		91B07C9418F5220F0005F69F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				912EAE6318F7CD8F0055AAAE /* ReamazeSDK-Info.plist */,
+				91640F121909E27E002F4FAE /* InfoPlist.strings */,
+				912EAE6818F7CDAB0055AAAE /* main.m */,
+				912EAE6A18F7CDB40055AAAE /* ReamazeSDK-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			path = ReamazeSDK;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		91B07C8918F5220F0005F69F /* ReamazeSDK */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B07CBF18F5220F0005F69F /* Build configuration list for PBXNativeTarget "ReamazeSDK" */;
+			buildPhases = (
+				91B07C8618F5220F0005F69F /* Sources */,
+				91B07C8718F5220F0005F69F /* Frameworks */,
+				91B07C8818F5220F0005F69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ReamazeSDK;
+			productName = ReamazeSDK;
+			productReference = 91B07C8A18F5220F0005F69F /* ReamazeSDK.app */;
+			productType = "com.apple.product-type.application";
+		};
+		91B07CAD18F5220F0005F69F /* ReamazeSDKTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 91B07CC218F5220F0005F69F /* Build configuration list for PBXNativeTarget "ReamazeSDKTests" */;
+			buildPhases = (
+				91B07CAA18F5220F0005F69F /* Sources */,
+				91B07CAB18F5220F0005F69F /* Frameworks */,
+				91B07CAC18F5220F0005F69F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				91B07CB418F5220F0005F69F /* PBXTargetDependency */,
+			);
+			name = ReamazeSDKTests;
+			productName = ReamazeSDKTests;
+			productReference = 91B07CAE18F5220F0005F69F /* ReamazeSDKTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		91B07C8218F5220F0005F69F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RMZ;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Reamaze;
+				TargetAttributes = {
+					91B07CAD18F5220F0005F69F = {
+						TestTargetID = 91B07C8918F5220F0005F69F;
+					};
+				};
+			};
+			buildConfigurationList = 91B07C8518F5220F0005F69F /* Build configuration list for PBXProject "ReamazeSDK" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 91B07C8118F5220F0005F69F;
+			productRefGroup = 91B07C8B18F5220F0005F69F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				91B07C8918F5220F0005F69F /* ReamazeSDK */,
+				91B07CAD18F5220F0005F69F /* ReamazeSDKTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		91B07C8818F5220F0005F69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				91640F1F1909E420002F4FAE /* ReamazeSDK-Info.plist in Resources */,
+				91640F1C1909E337002F4FAE /* Main_iPhone.storyboard in Resources */,
+				91640F1B1909E32E002F4FAE /* Main_iPad.storyboard in Resources */,
+				91640F111909E1CA002F4FAE /* ReamazeViewController.xib in Resources */,
+				9130BBBE18F7CEEC00729792 /* ReamazeSDK-Prefix.pch in Resources */,
+				912EAE7818F7CE490055AAAE /* Images.xcassets in Resources */,
+				91640F141909E27E002F4FAE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B07CAC18F5220F0005F69F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		91B07C8618F5220F0005F69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				912EAE6F18F7CE140055AAAE /* RMZAppDelegate.m in Sources */,
+				91640F101909E1CA002F4FAE /* ReamazeViewController.m in Sources */,
+				912EAE7018F7CE140055AAAE /* RMZViewController.m in Sources */,
+				912EAE6918F7CDAB0055AAAE /* main.m in Sources */,
+				91640F0C1909E1CA002F4FAE /* ReamazeController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		91B07CAA18F5220F0005F69F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		91B07CB418F5220F0005F69F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 91B07C8918F5220F0005F69F /* ReamazeSDK */;
+			targetProxy = 91B07CB318F5220F0005F69F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		91640F121909E27E002F4FAE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91640F131909E27E002F4FAE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		91640F151909E290002F4FAE /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91640F161909E290002F4FAE /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		91640F171909E290002F4FAE /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				91640F181909E290002F4FAE /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		91B07CBD18F5220F0005F69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		91B07CBE18F5220F0005F69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		91B07CC018F5220F0005F69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/ReamazeSDK-Prefix.pch";
+				INFOPLIST_FILE = "Example/ReamazeSDK-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		91B07CC118F5220F0005F69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Example/ReamazeSDK-Prefix.pch";
+				INFOPLIST_FILE = "Example/ReamazeSDK-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		91B07CC318F5220F0005F69F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReamazeSDK.app/ReamazeSDK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReamazeSDK/ReamazeSDK-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "ReamazeSDKTests/ReamazeSDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		91B07CC418F5220F0005F69F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/ReamazeSDK.app/ReamazeSDK";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ReamazeSDK/ReamazeSDK-Prefix.pch";
+				INFOPLIST_FILE = "ReamazeSDKTests/ReamazeSDKTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		91B07C8518F5220F0005F69F /* Build configuration list for PBXProject "ReamazeSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B07CBD18F5220F0005F69F /* Debug */,
+				91B07CBE18F5220F0005F69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B07CBF18F5220F0005F69F /* Build configuration list for PBXNativeTarget "ReamazeSDK" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B07CC018F5220F0005F69F /* Debug */,
+				91B07CC118F5220F0005F69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		91B07CC218F5220F0005F69F /* Build configuration list for PBXNativeTarget "ReamazeSDKTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				91B07CC318F5220F0005F69F /* Debug */,
+				91B07CC418F5220F0005F69F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 91B07C8218F5220F0005F69F /* Project object */;
+}

@@ -1,0 +1,14 @@
+PODS:
+  - Reamaze (0.0.1)
+
+DEPENDENCIES:
+  - Reamaze (from `..`)
+
+EXTERNAL SOURCES:
+  Reamaze:
+    :path: ..
+
+SPEC CHECKSUMS:
+  Reamaze: 29c9ecd7ec4570a43871fc50e06ce4d2ec7ec7ec
+
+COCOAPODS: 0.32.1
