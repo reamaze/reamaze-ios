@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "Reamaze"
-  s.version      = "0.0.1"
+  s.version      = "0.0.2"
   s.summary      = "Embeddable help knowledge base for your mobile app"
 
   s.description  = <<-DESC
@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.author       = { "Pat Morgan" => "pat@reamaze.com" }
   s.social_media_url   = "http://twitter.com/reamaze"
-  s.source       = { :git => "https://github.com/reamaze/reamaze-ios.git", :tag => "0.0.1" }
+  s.source       = { :git => "https://github.com/reamaze/reamaze-ios.git", :tag => "0.0.2" }
   s.source_files  = "ReamazeSDK", "ReamazeSDK/**/*.{h,m}"
   s.exclude_files = "ReamazeSDK/Exclude", "ReamazeSDK/ReamazeSDKTests"
   s.resources     = "ReamazeSDK/*.xib"
