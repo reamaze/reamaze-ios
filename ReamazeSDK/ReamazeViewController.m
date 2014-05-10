@@ -7,10 +7,12 @@
 
 #import "ReamazeViewController.h"
 
+#if DEBUG
 @interface NSURLRequest (DummyInterface)
 + (BOOL)allowsAnyHTTPSCertificateForHost:(NSString*)host;
 + (void)setAllowsAnyHTTPSCertificate:(BOOL)allow forHost:(NSString*)host;
 @end
+#endif
 
 @interface ReamazeViewController () <UIWebViewDelegate>
 @property (weak, nonatomic) IBOutlet UIWebView *webView;
@@ -65,7 +67,11 @@
 {
     NSURL *url = [NSURL URLWithString:[NSString stringWithFormat:@"https://%@.reamaze.com", _brand]];
     NSMutableURLRequest *requestObj = [NSMutableURLRequest requestWithURL:url];
+
+#if DEBUG
     [NSURLRequest setAllowsAnyHTTPSCertificate:YES forHost:[url host]];
+#endif
+    
     [requestObj setValue:@"iOS" forHTTPHeaderField:@"X-Reamaze-Embed"];
     [self.webView loadRequest:requestObj];
 }
