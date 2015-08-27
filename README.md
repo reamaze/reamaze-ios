@@ -54,6 +54,27 @@ Trigger Reamaze from anywhere (e.g. Button Press)
 }
 ```
 
+#### Appearance Customization
+
+If you decide to customize the appearance of the navigation bar within your app, a typical
+implementation can be:
+
+```obj-c
+[[UINavigationBar appearance] setTitleTextAttributes:@{
+                                                           NSFontAttributeName: [UIFont fontWithName:myFontName size:mySize],
+                                                           NSForegroundColorAttributeName:myColor
+                                                           }];
+[[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil] setTitleTextAttributes:@{
+                                                                                                       NSFontAttributeName: [UIFont fontWithName:myFont size:mySize],
+                                                                                                       NSForegroundColorAttributeName: myColor
+                                                                                                       }
+                                                                                        forState:UIControlStateNormal];
+[[UIBarButtonItem appearanceWhenContainedIn:[UINavigationBar class], nil] setTitleTextAttributes:@{
+                                                                                                       NSForegroundColorAttributeName: myColorWithHalfAlpha
+                                                                                                       }
+                                                                                        forState:UIControlStateDisabled];
+```
+
 #### Optional Delegation
 
 Create a class that conforms to the `ReamazeControllerDelegate` protocol.
